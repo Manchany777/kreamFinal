@@ -64,11 +64,22 @@
 	</dependency>
 	
 	<!-- MySQL -->
+	<!-- 
 	<dependency>
 	    <groupId>mysql</groupId>
 	    <artifactId>mysql-connector-java</artifactId>
 	    <version>8.0.32</version>
+	</dependency>  -->
+	
+	<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+	<dependency>
+	    <groupId>com.mysql</groupId>
+	    <artifactId>mysql-connector-j</artifactId>
+	    <version>8.0.32</version>
 	</dependency>
+	
+	
+	
 	<!-- MyBatis -->
 	<dependency>
 	    <groupId>org.mybatis</groupId>
@@ -141,8 +152,6 @@
 	    <version>1.5</version>
 	</dependency>
 	
-	
-	
 	<!-- lombok -->
 	<dependency>
 	    <groupId>org.projectlombok</groupId>
@@ -151,11 +160,11 @@
 	    <scope>provided</scope>
 	</dependency>    
 	<!-- SLF4J API -->
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-api</artifactId>
-    <version>1.7.32</version> <!-- 이 버전은 적절한 최신 버전으로 변경해야 할 수 있습니다. -->
-</dependency>
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-api</artifactId>
+	    <version>1.7.32</version> <!-- 이 버전은 적절한 최신 버전으로 변경해야 할 수 있습니다. -->
+	</dependency>
 
 <!-- Logback Classic (SLF4J 구현체) -->
 <dependency>
